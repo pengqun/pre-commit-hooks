@@ -1,10 +1,10 @@
-- id: awesome-lint
-  name: awesome-lint
-  description: 'Run awesome-lint on markdown files'
-  entry: awesome-lint
-  language: node
-  'types': [markdown]
-  args: []
-  require_serial: false
-  additional_dependencies: ["awesome-lint@1.1.0"]
-  minimum_pre_commit_version: '0'
+-   id: awesome-lint
+    name: awesome-lint
+    description: ''
+    entry: awesome-lint
+    language: node
+    'types': [javascript]
+    args: []
+    require_serial: false
+    additional_dependencies: ["awesome-lint@0.1.0"]
+    minimum_pre_commit_version: '0'
