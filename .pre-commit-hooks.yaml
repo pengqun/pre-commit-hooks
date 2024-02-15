@@ -1,11 +1,11 @@
 - id: awesome-lint
   name: awesome-lint
   description: "Run awesome-lint for your awesome list repo"
-  entry: awesome-lint
-  language: node
+  entry: npx awesome-lint
+  language: system
   args: []
   files: \.md$
   verbose: true
-  require_serial: false
-  additional_dependencies: ["awesome-lint@1.1.0"]
+  require_serial: true
+  # additional_dependencies: ["awesome-lint@1.1.0"]
   minimum_pre_commit_version: "0"
