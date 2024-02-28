@@ -4,7 +4,7 @@
   entry: hooks/awesome-lint.sh
   language: script
   args: []
-  files: \.md$
+  files: README.md
   verbose: true
   require_serial: true
   minimum_pre_commit_version: "0"

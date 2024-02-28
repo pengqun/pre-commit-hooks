@@ -28,7 +28,7 @@ Add this to your .pre-commit-config.yaml
     - id: awesome-lint
 ```
 
-By default the linted `README.md` file is auto detected by awesome-lint. If you want to use custom specified file, you can override the `files` configuration:
+By default only `README.md` file is linted. If you want to use custom specified file, you can override the `files` configuration:
 
 ```yaml
 - repo: https://github.com/pengqun/pre-commit-hooks
